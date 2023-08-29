@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<h1>Домашнее задание №1</h1>
+  <!-- 1. Необходимо создать переменную в которой будет храниться температура в градусах Цельсия, преобразовать значение в температуру по фаренгейту.
+Формула перевода градусов Цельсия в градусы Фаренгейта: градусы Фаренгейта = (9 / 5) * градусы Цельсия + 32
+Вывести в консоль температуру в Цельсиях и Фаренгейтах.
+Задание 2
+Необходимо создать переменную name, записать в эту переменную свое имя. Необходимо также создать переменную admin и присвоить этой переменной значение из переменной name. Вывести значение переменной admin в консоль.
+            -->
+    <script>
+      
+        let temperatureС = 24;
+        let temperatureF = temperatureС*9/5 + 32;
+
+        console.log(`Температура в градусах Цельсия : ${temperatureС}`);
+        console.log(`Температура по Фаренгейту : ${temperatureF}`);
+        let name = 'Ruslan';
+        let admin = name;
+        console.log(`Имя пользователя : ${name}`);
+        console.log(`Имя admin : ${admin}`);
+
+    </script>
+</body>
+</html>
